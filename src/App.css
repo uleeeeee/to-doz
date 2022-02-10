@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.App {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*background: rgb(2,0,36);*/
+	background: #161616;
+	/*background: linear-gradient(17deg, rgba(2,0,36,1) 0%, rgba(49,49,167,1) 100%, rgba(0,212,255,1) 100%);*/
+	/*background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);*/
+	font-family: "OpenSans";
+}
+
+.heading {
+	/*text-transform: uppercase;*/
+	font-size: 40px;
+	margin: 30px 0;
+	color: white;
+	z-index: 1;
+	text-align: center;
+}
